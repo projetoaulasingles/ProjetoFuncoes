@@ -2,16 +2,16 @@ package pacote_codigo;
 
 public class ClassePrincipal {
 	
-	public static void ImprimirComParametros(int a, int b){
+	public static int ImprimirComRetorno(){
 		
-		System.out.println(a);
-		System.out.println(a);
+		return 7;
 		
 	}
 	
 	public static void main(String[] args) {
 		
-		ImprimirComParametros(8, 9);
+		int x;
+		x = ImprimirComRetorno();
 
 	}
 
