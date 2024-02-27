@@ -2,15 +2,16 @@ package pacote_codigo;
 
 public class ClassePrincipal {
 	
-	public static void Imprimir() {
+	public static void ImprimirComParametros(int a, int b){
 		
-		System.out.println("Sem parâmetro e sem retorno.");
+		System.out.println(a);
+		System.out.println(a);
 		
 	}
 	
 	public static void main(String[] args) {
 		
-		Imprimir();
+		ImprimirComParametros(8, 9);
 
 	}
 
